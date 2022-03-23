@@ -1,6 +1,5 @@
 import { Component,ViewEncapsulation  } from '@angular/core';
 import { interval } from 'rxjs';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
