@@ -15,14 +15,15 @@ export class SingleAudioComponent implements OnInit {
   //change the text on the Btn
   // and mute/unmute the audio object
   mute() {
-    this.file.isMute = true;
     if (this.btnVal == 'Mute') {
+      this.file.isMute = true;
       this.btnVal = "Unmute"
       this.file.song.muted = true;
     }
     else {
       this.btnVal = 'Mute'
-      this.file.song.muted = false;      
+      this.file.song.muted = false;  
+      this.file.isMute = false;
     }    
   }
   ngOnInit(): void {
