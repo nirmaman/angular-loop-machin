@@ -16,7 +16,7 @@
   width: 500px;
   padding: 10px;
   padding-left: 45%;
-  
+
   border-radius: 25px;
   display: flex;
   margin-top: 10px;
@@ -25,7 +25,7 @@
 /* 
  */
 body {
-  background-image: url("../assets/Loop files/background-dark-smoke-design.jpg");
+  background-image: url("../assets/Loop-files/background-dark-smoke-design.jpg");
   background-size: 100%;
   background-size: cover;
 }
