@@ -35,7 +35,7 @@ export class AppComponent {
     },
     {
       name: 'mySong1',
-      path: this.path + 'ALL TRACK',
+      path: this.path + 'all-track',
       isMute: false,
       color: '#FF6F61',
       song: this.mySong1
@@ -43,14 +43,14 @@ export class AppComponent {
     },
     {
       name: 'mySong2',
-      path: this.path + 'B VOC',
+      path: this.path + 'bvoc',
       isMute: false,
       color: '#6B5B95',
       song: this.mySong2
     },
     {
       name: 'mySong3',
-      path: this.path + 'DRUMS',
+      path: this.path + 'drums',
       isMute: false,
       color: '#88B04B',
       song: this.mySong3
@@ -58,28 +58,28 @@ export class AppComponent {
     },
     {
       name: 'mySong4',
-      path: this.path + 'HE HE VOC',
+      path: this.path + 'hehevoc',
       isMute: false,
       color: '#F7CAC9',
       song: this.mySong4
     },
     {
       name: 'mySong5',
-      path: this.path + 'HIGH VOC',
+      path: this.path + 'highvoc',
       isMute: false,
       color: '#92A8D1',
       song: this.mySong5
     },
     {
       name: 'mySong6',
-      path: this.path + 'JIBRISH',
+      path: this.path + 'jibrish',
       isMute: false,
       color: '#955251',
       song: this.mySong6
     },
     {
       name: 'mySong7',
-      path: this.path + 'LEAD 1',
+      path: this.path + 'lead1',
       isMute: false,
       color: '#B565A7',
       song: this.mySong7
