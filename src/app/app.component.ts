@@ -28,14 +28,16 @@ export class AppComponent {
   files = [
     {
       name: 'mySong0',
-      path: this.path + '_tambourine_shake_higher',
+      //path: this.path + '_tambourine_shake_higher',
+      path: 'https://drive.google.com/file/d/171B2YsmGIe2h4SpJWE5SMASpuS66V9Rl/view?usp=sharing',
       isMute: false,
       color: '#34568B',
       song: this.mySong0
     },
     {
       name: 'mySong1',
-      path: this.path + 'all-track',
+      //path: this.path + 'all-track',
+      path: "https://drive.google.com/file/d/12oxb7cSkGEtHc1xUnu0Ydrbm_0AHlf_V/view?usp=sharing",
       isMute: false,
       color: '#FF6F61',
       song: this.mySong1
@@ -43,14 +45,16 @@ export class AppComponent {
     },
     {
       name: 'mySong2',
-      path: this.path + 'bvoc',
+      //path: this.path + 'bvoc',
+      path: 'https://drive.google.com/file/d/13ZP35QzgqDZfAG85uDP31IwdOs3N5---/view?usp=sharing',
       isMute: false,
       color: '#6B5B95',
       song: this.mySong2
     },
     {
       name: 'mySong3',
-      path: this.path + 'drums',
+      //path: this.path + 'drums',
+      path: 'https://drive.google.com/file/d/1roGCQCovk9cpzLDS5_QKp_yy-07AzJF1/view?usp=sharing',
       isMute: false,
       color: '#88B04B',
       song: this.mySong3
@@ -58,28 +62,32 @@ export class AppComponent {
     },
     {
       name: 'mySong4',
-      path: this.path + 'hehevoc',
+      //path: this.path + 'hehevoc',
+      path: "https://drive.google.com/file/d/1nsTviADU2LfT8sujV-BvpUFtx_QRUUd-/view?usp=sharing",
       isMute: false,
       color: '#F7CAC9',
       song: this.mySong4
     },
     {
       name: 'mySong5',
-      path: this.path + 'highvoc',
+      //path: this.path + 'highvoc',
+      path: 'https://drive.google.com/file/d/1rE6w4Db2J7necDkwW0XO1TKTtnxWo7Jx/view?usp=sharing',
       isMute: false,
       color: '#92A8D1',
       song: this.mySong5
     },
     {
       name: 'mySong6',
-      path: this.path + 'jibrish',
+      //path: this.path + 'jibrish',
+      path: 'https://drive.google.com/file/d/1dsBpUhxRtIczxbWKd5MhdmudjmYmZzm4/view?usp=sharing',
       isMute: false,
       color: '#955251',
       song: this.mySong6
     },
     {
       name: 'mySong7',
-      path: this.path + 'lead1',
+      //path: this.path + 'lead1',
+      path: 'https://drive.google.com/file/d/1Mhx5npNSqw9Ou_mnbjyfHCbiZ59zp2A2/view?usp=sharing',
       isMute: false,
       color: '#B565A7',
       song: this.mySong7
@@ -93,7 +101,8 @@ export class AppComponent {
   playSongs() { 
     this.files.forEach(element => {
       console.log(typeof(element));
-      element.song.src = element.path + '.mp3';
+      //element.song.src = element.path + '.mp3';
+      element.song.src = element.path
       element.song.load();
       element.song.play();   
     });
