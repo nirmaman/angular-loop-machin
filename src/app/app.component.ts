@@ -8,7 +8,7 @@ import { interval } from 'rxjs';
 })
 export class AppComponent {
   title = 'angular-loop-machine';
-  path = "../assets/Loop files/"
+  path = "../assets/Loop-files/"
   numOfSongs = 8
   loop = 'Loop'
   loopBol = false;
