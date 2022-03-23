@@ -93,7 +93,7 @@ export class AppComponent {
   playSongs() { 
     this.files.forEach(element => {
       console.log(typeof(element));
-      element.song.src = element.path + '.mp3';
+      element.song.src = element.path + '.mp3?raw=true';
       element.song.load();
       element.song.play();   
     });
