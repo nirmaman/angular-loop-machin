@@ -1,0 +1,12 @@
+<div id="chaneline" style="background-color: {{ file.color }};">
+  <div id="btn1">
+    <button class="btn btn-primary" (click)="mute()" id="btn1">
+      {{ btnVal }}
+    </button>
+  </div>
+  <img
+    src="https://img.freepik.com/free-vector/music-speaker-with-wave-equalizer-frequency-background_1017-32308.jpg?w=1380&t=st=1647985097~exp=1647985697~hmac=6f69c8e059d0e1775f2d8a9b6354f433748953d600b83d68b19ec9844598f177"
+    id="cursor"
+    *ngIf="!file.isMute && !file.song.paused"
+  />
+</div>

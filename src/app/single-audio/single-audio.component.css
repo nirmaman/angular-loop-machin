@@ -1,0 +1,19 @@
+#chaneline {
+  width: 500px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 25px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+#btn1 {
+  padding-right: 10px;
+  width: 100px;
+  padding-top: 6px;
+}
+#cursor {
+  width: 40px;
+  height: auto;
+}
